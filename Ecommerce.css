@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+button a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: #00b4d8;
+    color: #caf0f8;
+}
+
+#a, #c, #b{
+    padding-top: 5%;
+    margin-left: 10%;
+}
+
+#box{
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+#badge{
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.con{
+    width: 50%;
+    margin-left: 25%;
+    font-size: 13px;
+    background-color: #00b4d8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+form{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+footer{
+    color: white;
+    width: 100%;
+    height: 25vh;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.con2{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80vw;
+    justify-content: center;
+    gap: 5vw;
+    margin-left: 10vw;
+    padding: 20px;
+}
+
+#about{
+    width: 22.5vw;
+    height: 15vh;
+    background-color: #00b4d8;
+    border-radius: 10px;
+    box-shadow: #caf0f8 10px 10px;
+}
+
+#contact{
+    width: 15vw;
+    height: 15vh;
+    background-color: #caf0f8;
+    border-radius: 10px;
+    box-shadow: #00b4d8 10px 10px;
+}
